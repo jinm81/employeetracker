@@ -126,7 +126,7 @@ function addEmployee() {
                 }                  
                 }  
                 connection.query(
-                "INSERT INTO employees SET ?",
+                "INSERT INTO employee SET ?",
                 {
                     first_name: answer.first_name,
                     last_name: answer.last_name,
